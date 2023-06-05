@@ -1,12 +1,16 @@
 {
-  "name": "cxz-ui",
+  "name": "@cxz-ui",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "postinstall": "husky install",
     "lint": "eslint --ext .js,.jsx,.ts,.tsx,.vue --fix --quiet ./",
-    "prettier": "prettier --write ."
+    "prettier": "prettier --write .",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs",
+    "build": "pnpm -F components run build"
   },
   "keywords": [],
   "author": "",
@@ -15,8 +19,11 @@
   "devDependencies": {
     "@commitlint/cli": "^17.6.5",
     "@commitlint/config-conventional": "^17.6.5",
+    "@types/node": "^20.2.5",
     "@typescript-eslint/eslint-plugin": "^5.50.0",
     "@typescript-eslint/parser": "^5.59.8",
+    "@vitepress-demo-preview/component": "^2.3.0",
+    "@vitepress-demo-preview/plugin": "^1.1.11",
     "commitlint": "^17.6.5",
     "eslint": "^8.0.1",
     "eslint-config-prettier": "^8.8.0",
@@ -28,6 +35,8 @@
     "eslint-plugin-vue": "^9.14.1",
     "husky": "^8.0.3",
     "prettier": "^2.8.8",
-    "typescript": "*"
+    "typescript": "*",
+    "vitepress": "1.0.0-beta.1",
+    "vue": "^3.2.47"
   }
 }
