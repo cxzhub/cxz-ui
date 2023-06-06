@@ -19,12 +19,14 @@
   "devDependencies": {
     "@commitlint/cli": "^17.6.5",
     "@commitlint/config-conventional": "^17.6.5",
+    "@element-plus/icons-vue": "^2.1.0",
     "@types/node": "^20.2.5",
     "@typescript-eslint/eslint-plugin": "^5.50.0",
     "@typescript-eslint/parser": "^5.59.8",
     "@vitepress-demo-preview/component": "^2.3.0",
     "@vitepress-demo-preview/plugin": "^1.1.11",
     "commitlint": "^17.6.5",
+    "element-plus": "^2.3.6",
     "eslint": "^8.0.1",
     "eslint-config-prettier": "^8.8.0",
     "eslint-config-standard-with-typescript": "^35.0.0",
@@ -35,8 +37,12 @@
     "eslint-plugin-vue": "^9.14.1",
     "husky": "^8.0.3",
     "prettier": "^2.8.8",
+    "sass": "^1.62.1",
     "typescript": "*",
     "vitepress": "1.0.0-beta.1",
     "vue": "^3.2.47"
+  },
+  "dependencies": {
+    "@cxz-ui/components": "workspace:*"
   }
 }

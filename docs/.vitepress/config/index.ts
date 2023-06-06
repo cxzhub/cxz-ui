@@ -20,7 +20,10 @@ module.exports = {
       '/components/': [
         {
           text: '测试',
-          items: [{ text: 'Test', link: '/components/test' }]
+          items: [
+            { text: 'Test', link: '/components/test' },
+            { text: 'Select', link: '/components/select' }
+          ]
         }
       ]
     }

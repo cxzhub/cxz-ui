@@ -8,8 +8,8 @@ export default defineConfig({
   plugins: [vue(), dts()],
   build: {
     lib: {
-      entry: path.resolve(__dirname, 'src/main.ts'),
-      name: 'main'
+      entry: path.resolve(__dirname, 'src/index.ts'),
+      name: 'index'
     },
     rollupOptions: {
       external: ['vue'],
