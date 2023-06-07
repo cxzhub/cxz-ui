@@ -29,10 +29,18 @@ module.exports = {
       ],
       '/components/': [
         {
+          text: '基础组件',
           items: [
             { text: 'Select 选择器', link: '/components/select' },
             { text: 'Ellipsis 文本省略', link: '/components/ellipsis' },
             { text: 'Button 按钮', link: '/components/button' }
+          ]
+        },
+        {
+          text: '其他',
+          items: [
+            { text: 'Countup 数字滚动', link: '/components/countup' },
+            { text: 'Iframe 内联框架', link: '/components/iframe' }
           ]
         }
       ]
