@@ -8,7 +8,7 @@ module.exports = {
   themeConfig: {
     nav: [
       { text: '快速开始', link: '/guide/start' },
-      { text: 'Components', link: '/components/test' }
+      { text: '组件', link: '/components/test' }
     ],
     sidebar: {
       '/guide/': [
@@ -20,8 +20,8 @@ module.exports = {
       '/components/': [
         {
           items: [
-            { text: 'Select', link: '/components/select' },
-            { text: 'Ellipsis', link: '/components/ellipsis' }
+            { text: 'Select 选择器', link: '/components/select' },
+            { text: 'Ellipsis 文本省略', link: '/components/ellipsis' }
           ]
         }
       ]

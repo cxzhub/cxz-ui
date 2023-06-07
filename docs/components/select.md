@@ -1,4 +1,4 @@
-# CxzSelect
+# Select 选择器
 
 ## 简介
 
@@ -82,6 +82,8 @@ demo-preview=../examples/select/group.vue
 demo-preview=../examples/select/slot.vue
 :::
 
+## API
+
 ## Select 属性
 
 | 属性名              | 说明                                                                                                 | 类型                       | 默认值             |
@@ -117,7 +119,7 @@ demo-preview=../examples/select/slot.vue
 | isObject            | 返回的 modelValue 是否是整个对象                                                                     | boolean                    | false              |
 | valueOptions        | 用于回显的 options                                                                                   | array                      | []                 |
 
-## props 配置项
+## Select props 配置项
 
 | 属性     | 说明                   | 类型   | 默认值         |
 | -------- | ---------------------- | ------ | -------------- |
@@ -137,7 +139,7 @@ demo-preview=../examples/select/slot.vue
 | blur           | 失焦                                     | ——                                  |
 | focus          | 聚焦                                     | ——                                  |
 
-## Expose
+## Select Expose
 
 | 名称         | 说明             |
 | ------------ | ---------------- |
