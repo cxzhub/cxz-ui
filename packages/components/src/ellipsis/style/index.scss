@@ -1,0 +1,12 @@
+.cxz-ellipsis {
+  --cxz-ellipsis-max-width: 100%;
+  --cxz-ellipsis-line-clamp: 1;
+
+  max-width: var(--cxz-ellipsis-max-width);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-inline-box;
+  -webkit-line-clamp: var(--cxz-ellipsis-line-clamp);
+  -webkit-box-orient: vertical;
+  word-break: break-all;
+}
