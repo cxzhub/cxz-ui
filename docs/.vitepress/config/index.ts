@@ -19,9 +19,7 @@ module.exports = {
       ],
       '/components/': [
         {
-          text: '测试',
           items: [
-            { text: 'Test', link: '/components/test' },
             { text: 'Select', link: '/components/select' },
             { text: 'Ellipsis', link: '/components/ellipsis' }
           ]

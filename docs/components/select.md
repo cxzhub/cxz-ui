@@ -1,6 +1,6 @@
 # CxzSelect
 
-## 概述
+## 简介
 
 ### el-select 的痛点
 
