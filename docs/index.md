@@ -1,8 +1,8 @@
 ---
 layout: home
 
-title: Vite
-titleTemplate: Next Generation Frontend Tooling
+title: Cxz UI
+titleTemplate: 前端组件库
 ---
 
 <script setup>
