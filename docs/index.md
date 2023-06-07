@@ -1,3 +1,12 @@
-# Cxz UI
+---
+layout: home
 
-基于[ElementPlus](https://github.com/element-plus/element-plus)组件库二次封装
+title: Vite
+titleTemplate: Next Generation Frontend Tooling
+---
+
+<script setup>
+import Home from './.vitepress/theme/components/home.vue'
+</script>
+
+<Home />

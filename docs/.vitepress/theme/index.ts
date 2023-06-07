@@ -1,4 +1,5 @@
 import DefaultTheme from 'vitepress/theme'
+import './styles/vars.css'
 import { ElementPlusContainer } from '@vitepress-demo-preview/component'
 import ElementPlus from 'element-plus'
 import zhCn from 'element-plus/es/locale/lang/zh-cn'

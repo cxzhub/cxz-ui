@@ -6,10 +6,20 @@ import {
 module.exports = {
   title: 'Cxz UI',
   themeConfig: {
+    logo: '/logo.svg',
+
+    socialLinks: [{ icon: 'github', link: 'https://github.com/cxzhub/cxz-ui' }],
+
+    footer: {
+      message: `Released under the MIT License.`,
+      copyright: 'Copyright © 2023-present Chen Xing zhi'
+    },
+
     nav: [
-      { text: '快速开始', link: '/guide/start' },
+      { text: '指南', link: '/guide/start' },
       { text: '组件', link: '/components/select' }
     ],
+
     sidebar: {
       '/guide/': [
         {
