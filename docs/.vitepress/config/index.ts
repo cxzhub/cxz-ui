@@ -43,5 +43,6 @@ module.exports = {
       md.use(containerPreview)
       md.use(componentPreview)
     }
-  }
+  },
+  base: '/cxz-ui/'
 }
