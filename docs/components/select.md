@@ -82,8 +82,6 @@ demo-preview=../examples/select/group.vue
 demo-preview=../examples/select/slot.vue
 :::
 
-## API
-
 ## Select 属性
 
 | 属性名              | 说明                                                                                                 | 类型                       | 默认值             |
