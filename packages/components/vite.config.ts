@@ -1,24 +1,39 @@
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
-import path from 'path'
 import dts from 'vite-plugin-dts'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [vue(), dts()],
+  plugins: [vue(), dts({ outputDir: ['../cxz-ui/es', '../cxz-ui/lib'] })],
   build: {
-    lib: {
-      entry: path.resolve(__dirname, 'src/index.ts'),
-      name: 'index'
-    },
+    outDir: 'es',
     rollupOptions: {
       external: ['vue', 'element-plus'],
-      output: {
-        globals: {
-          vue: 'Vue',
-          'element-plus': 'ElementPlus'
+      input: ['src/index.ts'],
+      output: [
+        {
+          format: 'es',
+          //不用打包成.es.js,这里我们想把它打包成.js
+          entryFileNames: '[name].mjs',
+          //让打包目录和我们目录对应
+          preserveModules: true,
+          //配置打包根目录
+          dir: '../cxz-ui/es',
+          preserveModulesRoot: 'src'
+        },
+        {
+          format: 'cjs',
+          entryFileNames: '[name].js',
+          //让打包目录和我们目录对应
+          preserveModules: true,
+          //配置打包根目录
+          dir: '../cxz-ui/lib',
+          preserveModulesRoot: 'src'
         }
-      }
+      ]
+    },
+    lib: {
+      entry: './src/index.ts'
     }
   }
 })

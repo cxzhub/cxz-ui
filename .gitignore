@@ -12,6 +12,8 @@ dist
 dist-ssr
 *.local
 cache
+packages/cxz-ui/es
+packages/cxz-ui/lib
 
 # Editor directories and files
 .idea
