@@ -12,10 +12,11 @@ export default defineConfig({
       name: 'index'
     },
     rollupOptions: {
-      external: ['vue'],
+      external: ['vue', 'element-plus'],
       output: {
         globals: {
-          vue: 'Vue'
+          vue: 'Vue',
+          'element-plus': 'ElementPlus'
         }
       }
     }

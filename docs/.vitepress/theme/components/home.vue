@@ -1,9 +1,9 @@
 <template>
   <section id="hero">
     <h1 class="tagline">
-      <span class="accent">实用性强</span>
+      <span class="accent">Cxz UI</span>
       <br />
-      Vue3组件库
+      一个Vue3组件库
     </h1>
 
     <p class="description">
@@ -18,7 +18,7 @@
       封装的组件库
     </p>
 
-    <p>
+    <div>
       <el-button type="primary" size="large" round @click="handleStartClick">
         快速上手
         <el-icon>
@@ -28,23 +28,6 @@
       <el-button size="large" round @click="handleGitHubClick">
         在 GitHub 上查看
       </el-button>
-    </p>
-  </section>
-
-  <section id="highlights" class="vt-box-container">
-    <div class="vt-box">
-      <h2>源于工作</h2>
-      <p>这些组件或多或少都是在工作中碰到过的，具有实际意义。</p>
-    </div>
-    <div class="vt-box">
-      <h2>专注痛点</h2>
-      <p>
-        这些组件的功能在现有的一些组件库里没有，碰到相关的需求处理起来较棘手。
-      </p>
-    </div>
-    <div class="vt-box">
-      <h2>宁缺毋滥</h2>
-      <p>不重复造轮子，从实际出发，宁缺毋滥。</p>
     </div>
   </section>
 </template>
@@ -53,7 +36,7 @@
 import { Right } from '@element-plus/icons-vue'
 
 const handleStartClick = () => {
-  window.location.href = '/guide/start.html'
+  window.location.href = '/cxz-ui/guide/start.html'
 }
 
 const handleGitHubClick = () => {
@@ -101,45 +84,6 @@ html:not(.dark) .accent,
   }
 }
 
-#highlights {
-  max-width: 960px;
-  margin: 0px auto;
-  color: var(--vt-c-text-2);
-}
-
-#highlights h2 {
-  font-weight: 600;
-  font-size: 20px;
-  letter-spacing: -0.4px;
-  color: var(--vt-c-text-1);
-  transition: color 0.5s;
-  margin-bottom: 0.75em;
-}
-
-#highlights p {
-  font-weight: 400;
-  font-size: 15px;
-}
-
-#highlights .vt-box {
-  background-color: transparent;
-}
-
-.vt-box-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.vt-box-container .vt-box {
-  transition: color 0.5s, background-color 0.5s;
-  padding: 28px 36px;
-  border-radius: 8px;
-  flex: 0 32%;
-  font-size: 14px;
-  font-weight: 500;
-}
-
 @media (max-width: 960px) {
   .tagline {
     font-size: 64px;
@@ -167,18 +111,6 @@ html:not(.dark) .accent,
   .description {
     font-size: 16px;
     margin: 18px 0 30px;
-  }
-
-  #highlights h3 {
-    margin-bottom: 0.6em;
-  }
-
-  #highlights .vt-box {
-    padding: 20px 36px;
-  }
-
-  .actions a {
-    margin: 18px 0;
   }
 }
 

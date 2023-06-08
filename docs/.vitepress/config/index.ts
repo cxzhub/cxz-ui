@@ -6,8 +6,6 @@ import {
 module.exports = {
   title: 'Cxz UI',
   themeConfig: {
-    logo: '/logo.svg',
-
     socialLinks: [{ icon: 'github', link: 'https://github.com/cxzhub/cxz-ui' }],
 
     footer: {

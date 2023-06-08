@@ -6,7 +6,7 @@
     :is="isSized ? FixedSizeList : DynamicSizeList"
     v-else
     ref="listRef"
-    v-bind="vListProps"
+    v-bind="(vListProps as any)"
     :class-name="ns.be('dropdown', 'list')"
     :scrollbar-always-on="scrollbarAlwaysOn"
     :data="filteredOptions"
@@ -14,7 +14,7 @@
     :width="width"
     :total="filteredOptions.length"
   >
-    <template #default="scope: ItemProps<any>">
+    <template #default="scope">
       <ListItem
         v-bind="scope"
         :height="isSized ? vListProps.itemSize : vListProps.estimatedSize"
@@ -40,8 +40,6 @@ import { isUndefined } from 'element-plus/es/utils/index'
 import { selectInjectionKey } from './token'
 import ListItem from './list-item.vue'
 import { useSelectList } from './use-select-list'
-
-import type { ItemProps } from 'element-plus/es/components/virtual-list'
 
 defineProps({
   width: {
