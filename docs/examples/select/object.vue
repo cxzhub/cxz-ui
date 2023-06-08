@@ -1,10 +1,10 @@
 <template>
   <el-row :gutter="20">
-    <el-col :span="12">
+    <el-col :xs="24" :sm="24" :md="12" :lg="12" :xl="12">
       <CxzSelect :options="options" v-model="value1" filterable is-object />
       <div>值：{{ value1 }}</div>
     </el-col>
-    <el-col :span="12">
+    <el-col :xs="24" :sm="24" :md="12" :lg="12" :xl="12">
       <CxzSelect
         :options="options"
         v-model="value2"

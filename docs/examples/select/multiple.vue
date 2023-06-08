@@ -1,9 +1,9 @@
 <template>
   <el-row :gutter="20">
-    <el-col :span="12">
+    <el-col :xs="24" :sm="24" :md="12" :lg="12" :xl="12">
       <CxzSelect :options="options" v-model="value" filterable multiple />
     </el-col>
-    <el-col :span="12">
+    <el-col :xs="24" :sm="24" :md="12" :lg="12" :xl="12">
       <CxzSelect
         :options="options"
         v-model="value"

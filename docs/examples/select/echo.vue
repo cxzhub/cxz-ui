@@ -1,10 +1,10 @@
 <template>
   <el-row :gutter="20">
-    <el-col :span="12">
+    <el-col :xs="24" :sm="24" :md="12" :lg="12" :xl="12">
       1. 当value值在options中，自动回显
       <CxzSelect :options="options" v-model="value1" />
     </el-col>
-    <el-col :span="12">
+    <el-col :xs="24" :sm="24" :md="12" :lg="12" :xl="12">
       2. 当options中没有，valueOptions中有
       <CxzSelect
         :options="options"
@@ -12,7 +12,7 @@
         :value-options="valueOptions"
       />
     </el-col>
-    <el-col :span="12">
+    <el-col :xs="24" :sm="24" :md="12" :lg="12" :xl="12">
       3. 当value值为object，回显object中label
       <CxzSelect :options="options" v-model="value3" />
     </el-col>

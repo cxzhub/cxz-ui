@@ -21,7 +21,6 @@ module.exports = {
     sidebar: {
       '/guide/': [
         {
-          text: '使用指南',
           items: [{ text: '快速开始', link: '' }]
         }
       ],
