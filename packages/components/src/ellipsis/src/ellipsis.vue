@@ -36,6 +36,7 @@ import { useResizeObserver } from '@vueuse/core'
 import { throttle } from 'lodash-es'
 import { ellipsisProps, defaultTooltipProps } from './ellipsis'
 import { addUnit } from 'element-plus/es/utils/index'
+import { ElTooltip, ElScrollbar } from 'element-plus'
 
 const props = defineProps(ellipsisProps)
 
