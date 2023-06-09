@@ -15,8 +15,10 @@ importers:
       '@vitejs/plugin-vue': ^4.1.0
       '@vitepress-demo-preview/component': ^2.3.0
       '@vitepress-demo-preview/plugin': ^1.1.11
+      '@vue/compiler-sfc': ^3.2.41
       '@vueuse/core': ^10.1.2
       commitlint: ^17.6.5
+      dayjs: ^1.11.8
       element-plus: ^2.3.6
       eslint: ^8.0.1
       eslint-config-prettier: ^8.8.0
@@ -39,6 +41,7 @@ importers:
     dependencies:
       '@element-plus/icons-vue': 2.1.0_vue@3.3.4
       '@vueuse/core': 10.1.2_vue@3.3.4
+      dayjs: 1.11.8
       element-plus: 2.3.6_vue@3.3.4
       lodash-es: 4.17.21
       vue: 3.3.4
@@ -53,6 +56,7 @@ importers:
       '@vitejs/plugin-vue': 4.2.3_vite@4.3.9+vue@3.3.4
       '@vitepress-demo-preview/component': 2.3.0_64orlc4jlwufccskewf6i3ruty
       '@vitepress-demo-preview/plugin': 1.1.11_4szj6djvema35tp4e6abrqan7y
+      '@vue/compiler-sfc': 3.3.4
       commitlint: 17.6.5
       eslint: 8.42.0
       eslint-config-prettier: 8.8.0_eslint@8.42.0

@@ -30,7 +30,8 @@ module.exports = {
           items: [
             { text: 'Select 选择器', link: '/components/select' },
             { text: 'Ellipsis 文本省略', link: '/components/ellipsis' },
-            { text: 'Button 按钮', link: '/components/button' }
+            { text: 'Button 按钮', link: '/components/button' },
+            { text: 'DatePicker 日期选择器', link: '/components/date-picker' }
           ]
         },
         {
