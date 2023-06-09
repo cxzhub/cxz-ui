@@ -20,5 +20,13 @@
   "peerDependencies": {
     "element-plus": "^2.3.6",
     "vue": "^3.2.47"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cxzhub/cxz-ui.git"
+  },
+  "homepage": "https://cxzhub.github.io/cxz-ui/",
+  "bugs": {
+    "url": "https://github.com/cxzhub/cxz-ui/issues"
   }
 }
