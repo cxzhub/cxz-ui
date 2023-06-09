@@ -15,7 +15,7 @@ importers:
       '@vitejs/plugin-vue': ^4.1.0
       '@vitepress-demo-preview/component': ^2.3.0
       '@vitepress-demo-preview/plugin': ^1.1.11
-      '@vue/compiler-sfc': ^3.2.41
+      '@vue/compiler-sfc': ^3.3.4
       '@vueuse/core': ^10.1.2
       commitlint: ^17.6.5
       dayjs: ^1.11.8
