@@ -1,6 +1,6 @@
 import { datePickerProps } from 'element-plus'
 
-import type { ExtractPropTypes, PropType } from 'vue'
+import type { ExtractPropTypes } from 'vue'
 
 export const cxzDatePickerProp = {
   ...datePickerProps,
