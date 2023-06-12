@@ -81,7 +81,7 @@ const mergeDisabledDate = (time: Date) => {
   }
   if (
     props.afterDisabledDate &&
-    time.getTime() > dayjs(props.afterDisabledDate).subtract(1, 'day').valueOf()
+    time.getTime() > dayjs(props.afterDisabledDate).valueOf()
   ) {
     return true
   }
