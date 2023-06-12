@@ -13,7 +13,6 @@
   "devDependencies": {
     "@commitlint/cli": "^17.6.5",
     "@commitlint/config-conventional": "^17.6.5",
-    "@cxz-ui/components": "workspace:*",
     "@types/lodash-es": "^4.17.7",
     "@types/node": "^20.2.5",
     "@typescript-eslint/eslint-plugin": "^5.50.0",
@@ -46,6 +45,8 @@
     "dayjs": "^1.11.8",
     "element-plus": "^2.3.6",
     "lodash-es": "^4.17.21",
-    "vue": "^3.2.47"
+    "vue": "^3.2.47",
+    "@cxz-ui/components": "workspace:*",
+    "@cxz-ui/utils": "workspace:*"
   }
 }

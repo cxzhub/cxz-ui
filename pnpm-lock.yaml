@@ -7,6 +7,7 @@ importers:
       '@commitlint/cli': ^17.6.5
       '@commitlint/config-conventional': ^17.6.5
       '@cxz-ui/components': workspace:*
+      '@cxz-ui/utils': workspace:*
       '@element-plus/icons-vue': ^2.1.0
       '@types/lodash-es': ^4.17.7
       '@types/node': ^20.2.5
@@ -39,6 +40,8 @@ importers:
       vue: ^3.2.47
       vue-tsc: ^1.4.2
     dependencies:
+      '@cxz-ui/components': link:packages/components
+      '@cxz-ui/utils': link:packages/utils
       '@element-plus/icons-vue': 2.1.0_vue@3.3.4
       '@vueuse/core': 10.1.2_vue@3.3.4
       dayjs: 1.11.8
@@ -48,7 +51,6 @@ importers:
     devDependencies:
       '@commitlint/cli': 17.6.5
       '@commitlint/config-conventional': 17.6.5
-      '@cxz-ui/components': link:packages/components
       '@types/lodash-es': 4.17.7
       '@types/node': 20.2.5
       '@typescript-eslint/eslint-plugin': 5.59.8_54dzngpokg2nc3pytyodfzhcz4
@@ -85,6 +87,9 @@ importers:
     dependencies:
       element-plus: 2.3.6_vue@3.3.4
       vue: 3.3.4
+
+  packages/utils:
+    specifiers: {}
 
 packages:
 
