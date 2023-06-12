@@ -28,7 +28,6 @@ demo-preview=../examples/image/download.vue
 ## 更多操作
 
 使用 operation 插槽添加更多操作
-使用插槽添加更多操作按钮
 :::preview 更多操作
 demo-preview=../examples/image/operation.vue
 :::
