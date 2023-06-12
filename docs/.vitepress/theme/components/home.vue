@@ -83,8 +83,8 @@ html:not(.dark) .accent,
     font-size: 22px;
   }
 }
-.dark .description{
-  color: rgba(235, 235, 235, .6);
+.dark .description {
+  color: rgba(235, 235, 235, 0.6);
 }
 
 @media (max-width: 960px) {
