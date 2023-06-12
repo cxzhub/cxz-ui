@@ -25,7 +25,7 @@
 
 <script setup lang="ts">
 import { ref } from 'vue'
-import { CxzDatePicker } from '@cxz-ui/components'
+import { CxzDatePicker } from 'cxz-ui'
 
 const value1 = ref()
 const value2 = ref()

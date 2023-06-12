@@ -19,7 +19,7 @@
 
 <script setup lang="ts">
 import { ref } from 'vue'
-import { CxzSelect } from '@cxz-ui/components'
+import { CxzSelect } from 'cxz-ui'
 
 const options = ref([
   { label: 'label1', value: 1 },

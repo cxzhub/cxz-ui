@@ -3,7 +3,7 @@
 </template>
 
 <script setup lang="ts">
-import { CxzEllipsis } from '@cxz-ui/components'
+import { CxzEllipsis } from 'cxz-ui'
 import { ref } from 'vue'
 
 const content = ref(

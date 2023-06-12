@@ -15,7 +15,7 @@
 </template>
 
 <script setup lang="ts">
-import { CxzImage } from '@cxz-ui/components'
+import { CxzImage } from 'cxz-ui'
 import { Delete } from '@element-plus/icons-vue'
 
 const src =

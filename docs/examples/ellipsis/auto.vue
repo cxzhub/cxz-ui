@@ -17,7 +17,7 @@
 
 <script setup lang="ts">
 import { ref } from 'vue'
-import { CxzEllipsis } from '@cxz-ui/components'
+import { CxzEllipsis } from 'cxz-ui'
 
 const text = ref('编辑文本查看文本的溢出状态')
 const width = ref(200)

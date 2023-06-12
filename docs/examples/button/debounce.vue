@@ -6,7 +6,7 @@
 </template>
 
 <script setup lang="ts">
-import { CxzButton } from '@cxz-ui/components'
+import { CxzButton } from 'cxz-ui'
 import { ref } from 'vue'
 
 const count = ref(0)

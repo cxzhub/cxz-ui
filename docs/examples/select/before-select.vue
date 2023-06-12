@@ -9,7 +9,7 @@
 
 <script setup lang="ts">
 import { ref } from 'vue'
-import { CxzSelect } from '@cxz-ui/components'
+import { CxzSelect } from 'cxz-ui'
 import { ElMessage } from 'element-plus'
 
 const options = ref([

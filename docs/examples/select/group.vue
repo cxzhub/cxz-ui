@@ -11,7 +11,7 @@
 </template>
 
 <script lang="ts" setup>
-import { CxzSelect } from '@cxz-ui/components'
+import { CxzSelect } from 'cxz-ui'
 import { ref } from 'vue'
 const initials = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j']
 
