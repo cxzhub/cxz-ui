@@ -51,5 +51,12 @@ module.exports = {
       md.use(componentPreview)
     }
   },
-  base: '/cxz-ui/'
+  base: '/cxz-ui/',
+  vite: {
+    resolve: {
+      alias: {
+        'cxz-ui': '../../../packages/components'
+      }
+    }
+  }
 }

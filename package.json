@@ -47,7 +47,6 @@
     "lodash-es": "^4.17.21",
     "vue": "^3.2.47",
     "@cxz-ui/components": "workspace:*",
-    "@cxz-ui/utils": "workspace:*",
-    "cxz-ui": "file:./packages/components"
+    "@cxz-ui/utils": "workspace:*"
   }
 }
