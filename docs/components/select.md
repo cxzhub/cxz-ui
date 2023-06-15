@@ -2,7 +2,7 @@
 
 ## 简介
 
-### el-select 的痛点
+### ElSelect 的痛点
 
 1. 需要传入特定结构的数据（{label:string,value:number}[]），不够灵活；
 2. change 事件只返回了当前的 value 值，没能把整个对象返回，仍需使用 find()方法查一遍；
@@ -15,13 +15,13 @@
 针对上述缺陷与不足，完全重写了下拉选择器。
 
 1. 解决上述所以痛点；
-2. 完全复用 el-select 样式，风格样式保持统一；
+2. 完全复用 `ElSelect` 样式，风格样式保持统一；
 3. 下拉选项使用虚拟列表，不惧数据量大。
    <br>
 
-## 基本用法
+## 基础用法
 
-:::preview 基本用法
+:::preview 基础用法
 demo-preview=../examples/select/basic.vue
 :::
 

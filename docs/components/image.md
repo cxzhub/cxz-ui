@@ -2,11 +2,11 @@
 
 ## 简介
 
-相对 el-iamge，添加蒙层，添加预览、下载按钮及功能。el-image 原来预览功能不再支持。
+相对 `ElIamge`，添加蒙层，添加预览、下载按钮及功能。`ElImage` 原来预览功能不再支持。
 
 ## 基础用法
 
-基础用法与 el-image 没有区别
+基础用法与 `ElImage` 没有区别
 :::preview 基础用法
 demo-preview=../examples/image/basic.vue
 :::

@@ -2,12 +2,12 @@
 
 ## 简介
 
-配置化的 el-table
+配置化的 `ElTable`
 
-## 基本用法
+## 基础用法
 
 使用配置代替了模版声明 `ElTableColumn` ， `ElTable`原本的属性、事件与方法均支持
-:::preview 基本用法
+:::preview 基础用法
 demo-preview=../examples/table/basic.vue
 :::
 
