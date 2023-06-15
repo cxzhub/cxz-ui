@@ -4,7 +4,7 @@
       ref="formRef"
       v-bind="formProps"
       :model="value"
-      @validate="(val) => emits('validate', val)"
+      @validate="(val:any) => emits('validate', val)"
     >
       <el-row v-bind="layoutRow">
         <template v-for="item in schema" :key="item.prop">
