@@ -1,0 +1,33 @@
+.vp-doc .el-table table {
+  display: unset;
+  border-collapse: unset;
+  margin: unset;
+  overflow-x: unset;
+}
+
+.vp-doc .el-table tr {
+  border-top: unset;
+  transition: unset;
+}
+
+.vp-doc .el-table tr:nth-child(2n) {
+  background-color: unset;
+}
+
+.vp-doc .el-table th,
+.vp-doc .el-table td {
+  border: unset;
+  padding: unset;
+}
+
+.vp-doc .el-table th {
+  text-align: unset;
+  font-size: unset;
+  font-weight: unset;
+  color: unset;
+  background-color: unset;
+}
+
+.vp-doc .el-table td {
+  font-size: unset;
+}

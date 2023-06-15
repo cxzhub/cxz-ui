@@ -1,11 +1,11 @@
 import DefaultTheme from 'vitepress/theme'
-import './styles/vars.css'
 import { ElementPlusContainer } from '@vitepress-demo-preview/component'
 import ElementPlus from 'element-plus'
 import zhCn from 'element-plus/es/locale/lang/zh-cn'
 import '@vitepress-demo-preview/component/dist/style.css'
 import 'element-plus/dist/index.css'
 import 'element-plus/theme-chalk/dark/css-vars.css'
+import './styles/index.css'
 
 export default {
   ...DefaultTheme,
