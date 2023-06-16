@@ -55,6 +55,10 @@ import { pick } from 'lodash-es'
 
 import { cxzImageProps, cxzImageEmit } from './image'
 
+interface IImageViewer extends InstanceType<typeof ImageViewer> {
+  clickHandler(): void
+}
+
 const props = defineProps(cxzImageProps)
 const emit = defineEmits(cxzImageEmit)
 
@@ -80,7 +84,7 @@ const imageProps = computed(() => {
   ])
 })
 
-const imageViewRef = ref<InstanceType<typeof ImageViewer>>()
+const imageViewRef = ref<IImageViewer>()
 const handlePreview = () => {
   imageViewRef.value?.clickHandler()
 }

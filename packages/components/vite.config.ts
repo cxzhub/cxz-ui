@@ -18,8 +18,7 @@ export default defineConfig({
           //让打包目录和我们目录对应
           preserveModules: true,
           //配置打包根目录
-          dir: '../cxz-ui/es',
-          preserveModulesRoot: 'src'
+          dir: '../cxz-ui/es'
         },
         {
           format: 'cjs',
@@ -27,8 +26,7 @@ export default defineConfig({
           //让打包目录和我们目录对应
           preserveModules: true,
           //配置打包根目录
-          dir: '../cxz-ui/lib',
-          preserveModulesRoot: 'src'
+          dir: '../cxz-ui/lib'
         }
       ]
     },
