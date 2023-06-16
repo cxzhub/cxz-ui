@@ -34,3 +34,5 @@ export const cxzFormProps = {
     default: () => ({})
   }
 }
+
+export type CxzFormProps = Partial<ExtractPropTypes<typeof cxzFormProps>>

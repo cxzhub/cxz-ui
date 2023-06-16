@@ -44,7 +44,8 @@ module.exports = {
           text: '配置化',
           items: [
             { text: 'Table 表格', link: '/components/table' },
-            { text: 'Form 表单', link: '/components/form' }
+            { text: 'Form 表单', link: '/components/form' },
+            { text: 'ProTable 高级表格', link: '/components/pro-table' }
           ]
         },
         {

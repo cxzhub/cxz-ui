@@ -5,5 +5,6 @@ export * from './date-picker'
 export * from './image'
 export * from './table'
 export * from './form'
+export * from './pro-table'
 
 import './styles.ts'
