@@ -1,5 +1,5 @@
 <template>
-  <CxzForm :schema="schema" v-model="value" label-width="80px" />
+  <CxzForm v-model="value" :schema="schema" label-width="80px" />
 
   <div>值： {{ value }}</div>
 </template>

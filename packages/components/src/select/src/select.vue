@@ -1,8 +1,8 @@
 <template>
   <div
     ref="selectRef"
-    class="cxz-select"
     v-click-outside:[popperPaneRef]="handleClickOutside"
+    class="cxz-select"
     :class="wrapperKls"
     @mouseenter="mouseEnter = true"
     @mouseleave="mouseEnter = false"

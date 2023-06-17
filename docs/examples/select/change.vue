@@ -2,9 +2,9 @@
   <el-row :gutter="20">
     <el-col :xs="24" :sm="24" :md="12" :lg="12" :xl="12">
       <CxzSelect
+        v-model="value1"
         :options="options"
         :props="{ label: 'a', value: 'b' }"
-        v-model="value1"
         filterable
         @change="handleChange1"
       />
@@ -13,9 +13,9 @@
     </el-col>
     <el-col :xs="24" :sm="24" :md="12" :lg="12" :xl="12">
       <CxzSelect
+        v-model="value2"
         :options="options"
         :props="{ label: 'a', value: 'b' }"
-        v-model="value2"
         filterable
         multiple
         @change="handleChange2"

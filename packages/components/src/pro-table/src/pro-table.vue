@@ -6,8 +6,8 @@
     >
       <CxzForm
         v-bind="innerProps.formProps"
-        :disabled="proTableState.loading"
         v-model="proTableState.formValue"
+        :disabled="proTableState.loading"
         :show-count="isFolded ? showCount : undefined"
       >
         <template v-for="(_, name) in mergeSlot" #[name]="data">
@@ -19,8 +19,8 @@
             <el-button @click="proTableMethod?.onReset?.()">重置</el-button>
             <el-button
               type="primary"
-              @click="onSearch"
               :loading="proTableState.loading"
+              @click="onSearch"
             >
               搜索
             </el-button>
@@ -47,9 +47,9 @@
       <CxzTable
         ref="cxzTableRef"
         v-bind="innerProps.tableProps"
-        v-on="tableEvents"
-        :data="proTableState.data"
         v-loading="proTableState.loading"
+        :data="proTableState.data"
+        v-on="tableEvents"
       >
         <template #$append="data">
           <slot name="$append" v-bind="data" />

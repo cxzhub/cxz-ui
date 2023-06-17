@@ -1,5 +1,5 @@
 <template>
-  <CxzSelect :options="options" v-model="value" filterable />
+  <CxzSelect v-model="value" :options="options" filterable />
 </template>
 
 <script setup lang="ts">

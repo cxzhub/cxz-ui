@@ -13,11 +13,11 @@
     @calendar-change="onCalendarChange"
     @focus="onFocus"
   >
-    <template #default v-if="$slots.default">
+    <template v-if="$slots.default" #default>
       <slot name="default" />
     </template>
 
-    <template #range-separator v-if="$slots['range-separator']">
+    <template v-if="$slots['range-separator']" #range-separator>
       <slot name="range-separator" />
     </template>
   </el-date-picker>

@@ -1,8 +1,8 @@
 <template>
   <CxzSelect
+    v-model="value"
     :options="options"
     :props="{ label: 'a', value: 'b' }"
-    v-model="value"
     filterable
   />
 

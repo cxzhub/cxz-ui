@@ -1,7 +1,7 @@
 <template>
   <CxzSelect
-    :options="options"
     v-model="value"
+    :options="options"
     filterable
     remote
     :remote-method="remoteMethod"

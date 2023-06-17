@@ -1,7 +1,7 @@
 <template>
   <CxzForm
-    :schema="schema"
     v-model="value"
+    :schema="schema"
     label-width="60px"
     label-position="right"
     :layout-row="{ gutter: 20 }"

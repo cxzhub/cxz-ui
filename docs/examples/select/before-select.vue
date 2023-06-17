@@ -1,7 +1,7 @@
 <template>
   <CxzSelect
-    :options="options"
     v-model="value"
+    :options="options"
     filterable
     :before-select="beforeSelect"
   />

@@ -1,5 +1,5 @@
 <template>
-  <CxzEllipsis :content="content" :lineClamp="3" />
+  <CxzEllipsis :content="content" :line-clamp="3" />
 </template>
 
 <script setup lang="ts">

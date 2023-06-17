@@ -1,5 +1,5 @@
 <template>
-  <CxzButton type="primary" :throttleWait="2000" @click="handleClick">
+  <CxzButton type="primary" :throttle-wait="2000" @click="handleClick">
     节流按钮
   </CxzButton>
   <div>点击{{ count }}次</div>

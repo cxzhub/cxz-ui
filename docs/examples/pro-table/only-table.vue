@@ -1,5 +1,5 @@
 <template>
-  <CxzProTable :init="init" ref="tableRef" />
+  <CxzProTable ref="tableRef" :init="init" />
 
   <el-button @click="toggleSelection()">Clear selection</el-button>
 </template>

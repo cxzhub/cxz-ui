@@ -1,5 +1,5 @@
 <template>
-  <CxzButton type="primary" :debounceWait="2000" @click="handleClick">
+  <CxzButton type="primary" :debounce-wait="2000" @click="handleClick">
     防抖按钮
   </CxzButton>
   <div>点击{{ count }}次</div>

@@ -1,16 +1,16 @@
 <template>
   <el-row :gutter="20">
     <el-col :xs="24" :sm="24" :md="12" :lg="12" :xl="12">
-      <CxzSelect :options="options" v-model="value" filterable multiple />
+      <CxzSelect v-model="value" :options="options" filterable multiple />
     </el-col>
     <el-col :xs="24" :sm="24" :md="12" :lg="12" :xl="12">
       <CxzSelect
-        :options="options"
         v-model="value"
+        :options="options"
         filterable
         multiple
-        collapseTags
-        collapseTagsTooltip
+        collapse-tags
+        collapse-tags-tooltip
       />
     </el-col>
   </el-row>

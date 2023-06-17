@@ -1,8 +1,8 @@
 <template>
   <CxzForm
     ref="formRef"
-    :schema="schema"
     v-model="value"
+    :schema="schema"
     :rules="formRules"
     label-width="120px"
     :layout-row="{ gutter: 20 }"

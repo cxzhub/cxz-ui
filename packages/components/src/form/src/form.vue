@@ -25,15 +25,15 @@
               "
             >
               <component
-                v-if="item.slot && slots[item.slot]"
                 :is="(slots[item.slot] as any)"
+                v-if="item.slot && slots[item.slot]"
               />
               <component
-                :model-value="get(value, item.prop)"
-                @update:model-value="(val:any) => set(value, item.prop, val)"
-                v-else-if="item.component"
                 :is="item.component"
+                v-else-if="item.component"
+                :model-value="get(value, item.prop)"
                 v-bind="item.componentAttrs"
+                @update:model-value="(val:any) => set(value, item.prop, val)"
               />
 
               <template v-if="item.labelSlot && slots[item.labelSlot]" #label>

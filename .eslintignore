@@ -3,3 +3,5 @@ dist
 pnpm-lock.yaml
 play
 cache
+packages/cxz-ui/es
+packages/cxz-ui/lib

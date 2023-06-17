@@ -5,3 +5,5 @@ CHANGELOG.en-US.md
 pnpm-lock.yaml
 docs/components.d.ts
 cache
+packages/cxz-ui/es
+packages/cxz-ui/lib

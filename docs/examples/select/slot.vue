@@ -1,11 +1,11 @@
 <template>
   <CxzSelect
+    v-model="value"
     :options="options"
     :props="{
       label: 'name',
       value: 'id'
     }"
-    v-model="value"
     :item-height="50"
   >
     <template #default="{ option }">
