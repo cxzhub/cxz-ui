@@ -1,5 +1,5 @@
 <template>
-  <CxzProTable :init="init" />
+  <CxzProTable :init="init" :show-count="5" />
 </template>
 
 <script setup lang="ts">

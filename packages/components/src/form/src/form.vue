@@ -7,8 +7,11 @@
       @validate="(val:any) => emits('validate', val)"
     >
       <el-row v-bind="layoutRow">
-        <template v-for="item in schema" :key="item.prop">
-          <el-col v-bind="{ ...layoutCol, ...item.layout }">
+        <template v-for="(item, index) in schema" :key="item.prop">
+          <el-col
+            v-show="showCount > index"
+            v-bind="{ ...layoutCol, ...item.layout }"
+          >
             <el-form-item
               v-bind="
                 omit(item, [
@@ -43,6 +46,7 @@
             </el-form-item>
           </el-col>
         </template>
+        <slot name="$append" />
       </el-row>
     </el-form>
   </div>

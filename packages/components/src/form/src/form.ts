@@ -32,6 +32,10 @@ export const cxzFormProps = {
   modelValue: {
     type: Object as PropType<Record<string, any>>,
     default: () => ({})
+  },
+  showCount: {
+    type: Number,
+    default: Infinity
   }
 }
 

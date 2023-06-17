@@ -1,5 +1,21 @@
 <template>
-  <CxzProTable :init="init" />
+  <CxzProTable :init="init">
+    <template #key_1>表单插槽</template>
+
+    <template #date>表格插槽</template>
+
+    <template #$operation>
+      <el-button type="primary">新增</el-button>
+    </template>
+
+    <template #operation>
+      <el-space>
+        <el-button type="primary" link>查看</el-button>
+        <el-button type="primary" link>编辑</el-button>
+        <el-button type="danger" link>删除</el-button>
+      </el-space>
+    </template>
+  </CxzProTable>
 </template>
 
 <script setup lang="ts">
@@ -27,7 +43,8 @@ const { init } = useProTable({
         component: markRaw(ElInput),
         componentAttrs: {
           placeholder: '请输入姓名'
-        }
+        },
+        slot: 'key_1'
       },
       {
         prop: 'key_2',
@@ -59,7 +76,8 @@ const { init } = useProTable({
     columns: [
       {
         prop: 'date',
-        label: '日期'
+        label: '日期',
+        slot: 'date'
       },
       {
         prop: 'name',
@@ -68,6 +86,12 @@ const { init } = useProTable({
       {
         prop: 'address',
         label: '地址'
+      },
+      {
+        prop: 'operation',
+        label: '操作',
+        slot: 'operation',
+        width: 150
       }
     ]
   }

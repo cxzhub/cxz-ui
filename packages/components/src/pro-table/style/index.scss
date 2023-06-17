@@ -1,0 +1,15 @@
+.cxz-pro-table {
+  &__filter {
+    &-btns {
+      text-align: right;
+      flex: 1;
+    }
+  }
+
+  &__main {
+    &-pagination {
+      display: flex;
+      justify-content: flex-end;
+    }
+  }
+}
