@@ -1,6 +1,6 @@
 {
   "name": "cxz-ui",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "main": "lib/packages/components/src/index.js",
   "module": "es/packages/components/src/index.mjs",
   "types": "es/packages/components/src/index.d.ts",
