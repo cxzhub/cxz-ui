@@ -20,7 +20,7 @@ pnpm i cxz-ui
 import 'cxz-ui/es/style.css'
 ```
 
-- 使用组件
+- 示例
 
 ```vue
 <template>
