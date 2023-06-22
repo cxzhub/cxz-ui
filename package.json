@@ -9,7 +9,7 @@
     "docs:build": "vitepress build docs",
     "docs:serve": "vitepress serve docs",
     "build": "pnpm -F components run build2",
-    "deploy": "deploy.sh"
+    "docs:deploy": "powershell ./deploy.bat"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.6.5",
