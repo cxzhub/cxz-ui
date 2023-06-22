@@ -1,0 +1,1 @@
+import{aS as a}from"./framework.ee329e82.js";import{ba as t}from"./index.768f092d.js";const c=(e="")=>e.replace(/[|\\{}()[\]^$+*?.]/g,"\\$&").replace(/-/g,"\\x2d"),r=e=>a(e),i=e=>t[e||"default"];export{r as c,c as e,i as g};
