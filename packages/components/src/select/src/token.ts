@@ -19,6 +19,5 @@ export interface SelectContext {
   toggleMenu: () => void
 }
 
-export const selectInjectionKey: InjectionKey<SelectContext> = Symbol(
-  'BCSelectV3Injection'
-)
+export const selectInjectionKey: InjectionKey<SelectContext> =
+  Symbol('CxzSelectInjection')
