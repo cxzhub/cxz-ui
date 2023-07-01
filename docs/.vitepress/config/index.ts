@@ -2,7 +2,6 @@ import {
   containerPreview,
   componentPreview
 } from '@vitepress-demo-preview/plugin'
-import { compression } from 'vite-plugin-compression2'
 
 module.exports = {
   title: 'Cxz UI',
@@ -67,7 +66,6 @@ module.exports = {
   },
   base: '/cxz-ui/',
   vite: {
-    plugins: [compression()],
     resolve: {
       alias: {
         'cxz-ui': '../../../packages/components'
